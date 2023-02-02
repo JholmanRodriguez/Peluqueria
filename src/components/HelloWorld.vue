@@ -1,15 +1,15 @@
 <template>
-  <v-container-fluid class="">
-
+  <v-container-fluid>
     <v-row>
       <v-col cols="3">
         <h1 class="mt-4 text-center ">Sala De imagen D' mary</h1>
       </v-col>
-      <v-col cols="3"></v-col>
       <v-col cols="3">
-        <button v-if="agregarr === 1" @click="cambiarr">
-          <h1 class="mt-4 text-center">inicio</h1>
-        </button>
+
+      </v-col>
+      <v-col cols="3" class="mt-6" style="height: 10px;" >
+        <v-text-field label="¿Qué te quieres hacer Hoy?" solo dende></v-text-field>
+
       </v-col>
       <v-col cols="3">
         <button v-if="agregarr === 0">
@@ -18,32 +18,11 @@
         </button>
       </v-col>
     </v-row>
-    <div v-if="agregarr === 0">
-      <v-row id="i2">
-        <v-col> </v-col>
-        <v-col>
-          <br /><br /><br />
-          <h1 class="white--text">Peluqueria D' Mary</h1>
-          <p class="white--text">¿Qué te quieres hacer Hoy?</p>
 
-          <v-text-field label="¿Qué te quieres hacer Hoy?" solo dende></v-text-field>
-        </v-col>
-        <v-col></v-col>
-        <v-col> </v-col>
-        <v-col> </v-col>
-      </v-row>
+    <div v-if="agregarr === 0">
 
       <v-row id="b">
-        <v-col></v-col>
-        <v-col></v-col>
-        <v-col class="mt-4">
-          <button>
-            <img height="43px"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png"
-              alt="">
-          </button>
-        </v-col>
-        <v-col class="white--text mt-4">Mary Rodriguez</v-col>
+
         <v-col>5</v-col>
         <v-col>6</v-col>
         <v-col class="mt-4">
